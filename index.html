@@ -8,14 +8,14 @@
   </head>
   <body>
     <div class="container">
-      <form action="/action_page.php">
+      <form id="myForm" action="/action_page.php">
         <label for="Place">Name of the City:</label>
         <input type="text" id="city" name="city" /><br /><br />
 
         <input type="submit" value="Submit" />
       </form>
-      <button type="button">Celcius</button>
-      <button type="button">Fahrenheit</button>
+      <button type="button" id="celcius">Celcius</button>
+      <button type="button" id="fahrenheit">Fahrenheit</button>
       <div class="weatherInfo"></div>
       <script src="script.js"></script>
     </div>
